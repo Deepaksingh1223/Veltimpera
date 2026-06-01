@@ -6,10 +6,10 @@ export default function PaymentsPage({ onGo, onToast }) {
       <div className="bc">
         <span onClick={() => onGo("home")}>Dashboard</span>
         <span>›</span>
-        <span className="cur">Payments</span>
+        <span className="cur">My Task</span>
       </div>
 
-      <div className="h1">Payments</div>
+      <div className="h1">My Task</div>
 
       <div >
         <div className="vi-tabs">

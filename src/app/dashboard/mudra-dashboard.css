@@ -224,7 +224,7 @@
 .nb {
   margin-left: auto;
   background: var(--gdim);
-  color: var(--vi-green);
+  color: var(--tx);
   font-size: 10px;
   font-weight: 700;
   padding: 1px 6px;
@@ -3055,6 +3055,9 @@ select.fi {
 .faq-class{
   color:var(--tx)
 }
+.tbi.hamburger{
+  display: none !important;
+}
 @media(max-width:991px){
 .vi-cat-grid{
   grid-template-columns: repeat(2, 1fr);
@@ -3074,5 +3077,8 @@ select.fi {
     grid-template-columns: repeat(2, 1fr);
 }.vi-stats-grid{
   grid-template-columns: repeat(2, 1fr) !important;
+}
+.tbi.hamburger{
+  display: block !important; 
 }
 }

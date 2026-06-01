@@ -1,6 +1,9 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { MdEmojiEvents, MdMilitaryTech, MdVerified, MdPending } from "react-icons/md";
+import { IoFlash, IoWallet, IoInfinite, IoPeople } from "react-icons/io5";
+import { FaGem, FaCoins } from "react-icons/fa";
 
 export default function ExchangePage({ onGo, onToast }) {
   const [sendAmount, setSendAmount] = useState(0.42);
@@ -28,7 +31,53 @@ export default function ExchangePage({ onGo, onToast }) {
       </div>
       <div className="h1">Task History</div>
       
-      <div >
+      <div>
+          <div className="vi-wallet-card">
+                  <div className="vi-wallet-vip">
+                    <IoFlash style={{ marginRight: "6px", color: "#ffd700" }} />
+                    EMERALD
+                    <FaGem style={{ marginLeft: "6px", color: "#50c878" }} />
+                  </div>
+                  <div className="vi-wallet-label">
+                    <IoWallet style={{ marginRight: "6px" }} />
+                    TOTAL REWARD POINTS
+                  </div>
+                  <div className="vi-wallet-balance">4,820</div>
+                  <div className="vi-wallet-pts">
+                    <FaCoins style={{ marginRight: "4px" }} />
+                    ≈ $48.20 USDT value · Updated just now
+                  </div>
+                  <div className="vi-wallet-row">
+                    <div className="vi-wallet-mini">
+                      <div className="vi-wallet-mini-label">
+                        <MdPending style={{ marginRight: "4px", fontSize: "12px" }} />
+                        Pending
+                      </div>
+                      <div className="vi-wallet-mini-val">215</div>
+                    </div>
+                    <div className="vi-wallet-mini">
+                      <div className="vi-wallet-mini-label">
+                        <MdVerified style={{ marginRight: "4px", fontSize: "12px", color: "#22c55e" }} />
+                        Approved
+                      </div>
+                      <div className="vi-wallet-mini-val">4,605</div>
+                    </div>
+                    <div className="vi-wallet-mini">
+                      <div className="vi-wallet-mini-label">
+                        <IoInfinite style={{ marginRight: "4px", fontSize: "12px" }} />
+                        Lifetime
+                      </div>
+                      <div className="vi-wallet-mini-val">8,340</div>
+                    </div>
+                    <div className="vi-wallet-mini">
+                      <div className="vi-wallet-mini-label">
+                        <IoPeople style={{ marginRight: "4px", fontSize: "12px" }} />
+                        Referrals
+                      </div>
+                      <div className="vi-wallet-mini-val">340</div>
+                    </div>
+                  </div>
+                </div>
         <div className="vi-card">
           <div className="vi-card-body" style={{ padding: 0 }}>
             <table className="vi-table">

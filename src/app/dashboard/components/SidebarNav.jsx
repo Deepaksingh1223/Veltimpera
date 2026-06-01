@@ -61,13 +61,13 @@ export default function SidebarNav({ page, onGo }) {
           <i className="ti ti-arrows-right-left" aria-hidden="true" />Task History
         </Link>
 
-        <span className="nav-sec">REWARDS</span> 
+        <span className="nav-sec">REWARDS</span>
 
         <Link
           className={"ni " + (isActive("/dashboard/tasks") ? "on" : "")}
           href="/dashboard/tasks"
         >
-          <i className="ti ti-checklist" aria-hidden="true" />Rewards Wallet 
+          <i className="ti ti-checklist" aria-hidden="true" />Rewards Wallet
         </Link>
 
         <Link
@@ -82,7 +82,7 @@ export default function SidebarNav({ page, onGo }) {
           href="/dashboard/mdr-token"
         >
           <i className="ti ti-coin" aria-hidden="true" /> VIP Status
-        </Link> 
+        </Link>
         <Link
           className={"ni " + (isActive("/dashboard/membership-plan") ? "on" : "")}
           href="/dashboard/membership-plan"
@@ -97,7 +97,7 @@ export default function SidebarNav({ page, onGo }) {
           <i className="ti ti-receipt" aria-hidden="true" />Leaderboard
         </Link>
 
-   <span className="nav-sec">GROW</span> 
+        <span className="nav-sec">GROW</span>
 
         <Link
           className={"ni " + (isActive("/dashboard/Referral") ? "on" : "")}
@@ -112,17 +112,17 @@ export default function SidebarNav({ page, onGo }) {
         >
           <i className="ti ti-settings" aria-hidden="true" /> Notifications <span className="nb">5</span>
         </Link>
-          <Link
+        <Link
           className={"ni " + (isActive("/dashboard/settings") ? "on" : "")}
           href="/dashboard/settings"
         >
-          <i className="ti ti-settings" aria-hidden="true" /> Profile  
+          <i className="ti ti-settings" aria-hidden="true" /> Profile
         </Link>
-          <Link
+        <Link
           className={"ni " + (isActive("/dashboard/support") ? "on" : "")}
           href="/dashboard/support"
         >
-          <i className="ti ti-settings" aria-hidden="true" /> Support 
+          <i className="ti ti-settings" aria-hidden="true" /> Support
         </Link>
       </div>
 
@@ -140,6 +140,20 @@ export default function SidebarNav({ page, onGo }) {
           />
         </div>
       </div>
+      {/* <div className="sb-foot">
+        <div className="usr" onClick={() => onGo("settings")}>
+          <div className="av">AK</div>
+          <div>
+            <div style={{ fontSize: 12, fontWeight: 600, color: "var(--tx)" }}>Arjun Kapoor</div>
+            <div style={{ fontSize: 10, color: "var(--tx3)" }}>MUD-2847 · Gold</div>
+          </div>
+          <i
+            className="ti ti-chevron-right"
+            style={{ marginLeft: "auto", fontSize: 14, color: "var(--tx3)" }}
+            aria-hidden="true"
+          />
+        </div>
+      </div> */}
     </nav>
   );
 }
