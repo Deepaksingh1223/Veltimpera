@@ -19,8 +19,8 @@ export default function SupportPage({ onGo, onToast }) {
       answer: "USDT withdrawals typically process within 5-30 minutes, depending on network congestion. Large withdrawals may require additional security verification and can take up to 2 hours."
     },
     {
-      question: "Can I use my Mudra card internationally?",
-      answer: "Yes, your Mudra card works internationally in over 160 countries. Foreign transaction fees are 1% for Gold members and 2% for Standard members."
+      question: "Can I use my Veltimpera card internationally?",
+      answer: "Yes, your Veltimpera card works internationally in over 160 countries. Foreign transaction fees are 1% for Gold members and 2% for Standard members."
     }
   ];
 
@@ -53,7 +53,7 @@ export default function SupportPage({ onGo, onToast }) {
           <div style={{ fontSize: 13, fontWeight: 600, color: "var(--tx)", marginBottom: 2 }}>Email Support</div>
           <div style={{ fontSize: 11, color: "var(--tx3)" }}>Reply within 24 hours</div>
         </div>
-        <div className="scard" onClick={() => onToast("Calling Mudra Gold hotline")}>
+        <div className="scard" onClick={() => onToast("Calling Veltimpera Gold hotline")}>
           <div className="sico" style={{ background: "var(--pubg)", color: "var(--pu)" }}>
             <i className="ti ti-phone" />
           </div>

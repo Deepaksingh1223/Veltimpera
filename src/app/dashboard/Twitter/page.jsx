@@ -9,7 +9,7 @@ export default function TwitterTask() {
   
   // Tasks data with progress
   const [tasks, setTasks] = useState({
-    tw1: { title: "Follow @MudraFinance", description: "Follow official Mudra X account", points: 8, progress: 100, status: "done", type: "follow", stepsDone: 1, totalSteps: 1 },
+    tw1: { title: "Follow @VeltimperaFinance", description: "Follow official Veltimpera X account", points: 8, progress: 100, status: "done", type: "follow", stepsDone: 1, totalSteps: 1 },
     tw2: { title: "Retweet: Platform Launch Tweet", description: "Retweet our platform launch", points: 10, progress: 100, status: "done", type: "retweet", stepsDone: 1, totalSteps: 1 },
     tw3: { title: "Reply: Introduce Yourself", description: "Reply to our community intro tweet", points: 7, progress: 25, status: "progress", type: "reply", stepsDone: 1, totalSteps: 4 },
     tw4: { title: "Retweet: Velt Impera Tweet", description: "Retweet the Velt Impera listing", points: 10, progress: 0, status: "new", type: "retweet", stepsDone: 0, totalSteps: 1 },
@@ -151,7 +151,7 @@ export default function TwitterTask() {
                   fontWeight: selectedTask.stepsDone === 0 ? "600" : "normal",
                   color: selectedTask.stepsDone > 0 ? "var(--tx2)" : "var(--tx)"
                 }}>
-                  {selectedTask.type === "follow" && "Search and follow @MudraFinance on X/Twitter"}
+                  {selectedTask.type === "follow" && "Search and follow @VeltimperaFinance on X/Twitter"}
                   {selectedTask.type === "retweet" && "Find the tweet and click Retweet button"}
                   {selectedTask.type === "reply" && "Open the community intro tweet"}
                   {selectedTask.type === "like" && "Find the thread and click Like button"}
@@ -243,7 +243,7 @@ export default function TwitterTask() {
                     fontWeight: selectedTask.stepsDone === 2 ? "600" : "normal",
                     color: selectedTask.stepsDone > 2 ? "var(--tx2)" : "var(--tx)"
                   }}>
-                    Include relevant hashtags (#Mudra #Crypto)
+                    Include relevant hashtags (#Veltimpera #Crypto)
                   </div>
                   {selectedTask.stepsDone === 2 && (
                     <button 
@@ -437,15 +437,14 @@ export default function TwitterTask() {
           <div className="bf" style={{width:`${completedPercentage}%`, background:"#1DA1F2"}}></div>
         </div>
         
-        <div id="tw-list" style={{display:"flex", flexDirection:"column", gap:"8px"}}>
-          {/* Task 1 - Follow @MudraFinance (Done) */}
+        <div id="tw-list" style={{display:"flex", flexDirection:"column", gap:"8px"}}> 
           <div className={`tr ${tasks.tw1.status === "done" ? "dn2" : ""}`} id="srtw1">
             <div className="tico" style={{background:"#1DA1F2"}}>
               <i className="ti ti-user-plus" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Follow @MudraFinance</div>
-              <div className="td">Follow official Mudra X account</div>
+              <div className="tt">Follow @VeltimperaFinance</div>
+              <div className="td">Follow official Veltimpera X account</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
                   <div className="bf" id="sbtw1" style={{width:`${tasks.tw1.progress}%`}}></div>

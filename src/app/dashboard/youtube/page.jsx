@@ -17,7 +17,7 @@ export default function YouTubeTask() {
   // Video data with WORKING video URLs (public sample videos that definitely work)
   const videos = {
     v1: { 
-      title: "Mudra Platform Overview", 
+      title: "veltimpera Platform Overview", 
       duration: "0:30", 
       durationSec: 30, 
       points: 12, 
@@ -57,7 +57,7 @@ export default function YouTubeTask() {
       videoUrl: "https://www.w3schools.com/html/mov_bbb.mp4"
     },
     v5: { 
-      title: "Subscribe to Mudra Channel", 
+      title: "Subscribe to Veltimpera Channel", 
       duration: "N/A", 
       durationSec: 0, 
       points: 20, 
@@ -66,7 +66,7 @@ export default function YouTubeTask() {
       type: "subscribe" 
     },
     v6: { 
-      title: "Like: Mudra Launch Video", 
+      title: "Like: Veltimpera Launch Video", 
       duration: "N/A", 
       durationSec: 0, 
       points: 5, 
@@ -270,7 +270,7 @@ export default function YouTubeTask() {
               <i className="ti ti-player-play" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Mudra Platform Overview</div>
+              <div className="tt">veltimpera Platform Overview</div>
               <div className="td">Complete dashboard walkthrough · 0:30</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
@@ -357,8 +357,8 @@ export default function YouTubeTask() {
               <i className="ti ti-bell" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Subscribe to Mudra Channel</div>
-              <div className="td">Stay updated with Mudra content</div>
+              <div className="tt">Subscribe to Veltimpera Channel</div>
+              <div className="td">Stay updated with Veltimpera content</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
                   <div className="bf" id="ybv5" style={{width:"100%"}}></div>
@@ -378,7 +378,7 @@ export default function YouTubeTask() {
               <i className="ti ti-heart" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Like: Mudra Launch Video</div>
+              <div className="tt">Like: Veltimpera Launch Video</div>
               <div className="td">Like our official launch video</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
@@ -432,7 +432,7 @@ export default function YouTubeTask() {
                   </div>
                   
                   <div style={{fontSize:"12.5px", fontWeight:"500", color:"var(--tx)", marginBottom:"2px"}}>{currentVideo.title}</div>
-                  <div style={{fontSize:"11px", color:"var(--tx3)", marginBottom:"10px"}}>Mudra Official · YouTube · {currentVideo.duration}</div>
+                  <div style={{fontSize:"11px", color:"var(--tx3)", marginBottom:"10px"}}>Veltimpera Official · YouTube · {currentVideo.duration}</div>
                   
                   <div style={{display:"flex", gap:"7px", flexWrap:"wrap"}}>
                     <button className="btn bg bsm" onClick={togglePlay} id="ppb">

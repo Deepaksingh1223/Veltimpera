@@ -9,7 +9,7 @@ export default function FacebookTask() {
   
   // Tasks data with progress
   const [tasks, setTasks] = useState({
-    fb1: { title: "Like: Mudra Official Page", points: 5, progress: 100, status: "done", type: "like", stepsDone: 1, totalSteps: 1 },
+    fb1: { title: "Like: Veltimpera Official Page", points: 5, progress: 100, status: "done", type: "like", stepsDone: 1, totalSteps: 1 },
     fb2: { title: "Like: Launch Announcement", points: 5, progress: 100, status: "done", type: "like", stepsDone: 1, totalSteps: 1 },
     fb3: { title: "Comment: Share Your Experience", points: 8, progress: 25, status: "progress", type: "comment", stepsDone: 1, totalSteps: 3 },
     fb4: { title: "Share: Referral Campaign Post", points: 10, progress: 0, status: "new", type: "share", stepsDone: 0, totalSteps: 2 },
@@ -137,7 +137,7 @@ export default function FacebookTask() {
                   fontWeight: selectedTask.stepsDone === 0 ? "600" : "normal",
                   color: selectedTask.stepsDone > 0 ? "var(--tx2)" : "var(--tx)"
                 }}>
-                  {selectedTask.type === "like" && "Open the Mudra Facebook page and click Like"}
+                  {selectedTask.type === "like" && "Open the Veltimpera Facebook page and click Like"}
                   {selectedTask.type === "share" && "Open the post and click Share button"}
                   {selectedTask.type === "comment" && "Open the post and read the content"}
                 </div>
@@ -378,8 +378,8 @@ export default function FacebookTask() {
               <i className="ti ti-heart" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Like: Mudra Official Page</div>
-              <div className="td">Like the Mudra Facebook page</div>
+              <div className="tt">Like: Veltimpera Official Page</div>
+              <div className="td">Like the Veltimpera Facebook page</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
                   <div className="bf" id="sbfb1" style={{width:`${tasks.fb1.progress}%`}}></div>
@@ -450,7 +450,7 @@ export default function FacebookTask() {
             </div>
             <div className="tb">
               <div className="tt">Share: Referral Campaign Post</div>
-              <div className="td">Share the Mudra referral post</div>
+              <div className="td">Share the Veltimpera referral post</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
                   <div className="bf" id="sbfb4" style={{width:`${tasks.fb4.progress}%`}}></div>
