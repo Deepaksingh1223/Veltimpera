@@ -1,8 +1,6 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import { usePathname } from "next/navigation"; 
 
 export default function RouteChrome({ children }) {
   const pathname = usePathname();
@@ -13,10 +11,8 @@ export default function RouteChrome({ children }) {
     pathname?.startsWith("/Fotget");
 
   return (
-    <>
-      {!isDashboard && !isAuthPage && <Header />}
-      {children}
-      {!isDashboard && !isAuthPage && <Footer />}
+    <> 
+      {children} 
     </>
   );
 }
