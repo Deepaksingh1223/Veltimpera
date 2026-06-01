@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const VERIFY_LINKS = [
   {
     step: "01",
@@ -54,14 +56,14 @@ const VERIFY_LINKS = [
         badgeColor: "#F0A500",
       },
       {
-  icon: "ti-chart-candle",  // Changed from "ti-chart-candlestick"
-  iconBg: "#A855F7",
-  label: "Dexscreener",
-  desc: "Live DEX chart · VELT/USDT pair",
-  url: "https://dexscreener.com/bsc/0x64ae65093cafcecec8d0890e4f586c05b491f445",
-  badge: "DEX",
-  badgeColor: "#A855F7",
-},
+        icon: "ti-chart-candle",  // Changed from "ti-chart-candlestick"
+        iconBg: "#A855F7",
+        label: "Dexscreener",
+        desc: "Live DEX chart · VELT/USDT pair",
+        url: "https://dexscreener.com/bsc/0x64ae65093cafcecec8d0890e4f586c05b491f445",
+        badge: "DEX",
+        badgeColor: "#A855F7",
+      },
       {
         icon: "ti-arrows-exchange",
         iconBg: "#EC4899",
@@ -231,7 +233,7 @@ export default function HomePage({ onGo, onToast }) {
 
         {/* ── Exchange + Loyalty Tasks ── */}
         <div className="g2">
-            <div className="card">
+          <div className="card">
             <div className="ch">
               <div>
                 <div className="ct">
@@ -374,7 +376,7 @@ export default function HomePage({ onGo, onToast }) {
                           padding: "9px 12px",
                           borderRadius: 10,
                           background: "var(--sf)",
-                          border: "1px solid var(--grd)", 
+                          border: "1px solid var(--grd)",
                           textDecoration: "none",
                           cursor: "pointer",
                         }}
@@ -421,7 +423,7 @@ export default function HomePage({ onGo, onToast }) {
             </div>
           </div>
           {/* VELT → Fiat Exchange */}
-        
+
 
           {/* Loyalty Tasks */}
           <div className="card">
@@ -469,7 +471,8 @@ export default function HomePage({ onGo, onToast }) {
                 <div className="tr-r">
                   <div className="pts">+15 pts</div>
                   <span className="pill pp"><i className="ti ti-clock" />Progress</span>
-                  <button className="btn bo bxs" onClick={(e) => { e.stopPropagation(); onGo("yt"); }} style={{ marginTop: 3 }}>Continue</button>
+                  <Link href="dashboard/youtube" className="btn bo bxs">Youtube Task</Link>
+                  {/* <button className="btn bo bxs" onClick={(e) => { e.stopPropagation(); onGo("yt"); }} style={{ marginTop: 3 }}>Continue</button> */}
                 </div>
               </div>
 
@@ -488,13 +491,18 @@ export default function HomePage({ onGo, onToast }) {
                 <div className="tr-r">
                   <div className="pts">+8 pts</div>
                   <span className="pill pp"><i className="ti ti-clock" />Progress</span>
-                  <button className="btn bo bxs" onClick={(e) => { e.stopPropagation(); onGo("fb"); }} style={{ marginTop: 3 }}>Continue</button>
+                  <Link href="dashboard/Facebook" className="btn bo bxs">Facebook Task</Link>
                 </div>
               </div>
 
               <div className="tr dn2" style={{ cursor: "pointer" }} onClick={() => onGo("stake")}>
-                <div className="tico" style={{ background: "linear-gradient(135deg,#9A7020,#C9A03A)" }}>
-                  <i className="ti ti-lock" />
+                <div
+                  className="tico"
+                  style={{
+                    background: "linear-gradient(135deg, #F58529, #DD2A7B, #8134AF, #515BD4)"
+                  }}
+                >
+                  <i className="ti ti-brand-instagram" />
                 </div>
                 <div className="tb">
                   <div className="tt">Stake VELT on veltimpera.com</div>
@@ -507,12 +515,12 @@ export default function HomePage({ onGo, onToast }) {
                 <div className="tr-r">
                   <div className="pts">+25 pts</div>
                   <span className="pill pw"><i className="ti ti-player-play" />Start</span>
-                  <button className="btn bo bxs" onClick={(e) => { e.stopPropagation(); onGo("stake"); }} style={{ marginTop: 3 }}>Begin</button>
+                  <Link href="dashboard/Instagram" className="btn bo bxs">Instagram Task</Link>
                 </div>
               </div>
- 
+
             </div>
-             <div className="mt-3">
+            <div className="mt-3">
               <div className="ch">
                 <div className="ct">
                   <i className="ti ti-cash" style={{ marginRight: 6, color: "var(--gr)" }} />
@@ -564,10 +572,10 @@ export default function HomePage({ onGo, onToast }) {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 7 }}>
               <div className="ex-lbl">
-                  <i className="ti ti-send" style={{ fontSize: 11, marginRight: 4 }} />You send
-                </div>
+                <i className="ti ti-send" style={{ fontSize: 11, marginRight: 4 }} />You send
+              </div>
               <div className="ex-box">
-                
+
                 <div className="ex-row">
                   <input className="ex-amt" value="1000" readOnly />
                   <div className="ccy">
@@ -582,10 +590,10 @@ export default function HomePage({ onGo, onToast }) {
                   <i className="ti ti-arrows-up-down" />
                 </div>
               </div> <div className="ex-lbl">
-                  <i className="ti ti-download" style={{ fontSize: 11, marginRight: 4 }} />You receive
-                </div>
+                <i className="ti ti-download" style={{ fontSize: 11, marginRight: 4 }} />You receive
+              </div>
               <div className="ex-box">
-               
+
                 <div className="ex-row">
                   <input className="ex-amt" value="0.90" readOnly style={{ color: "var(--glt)" }} />
                   <div className="ccy">
@@ -659,9 +667,9 @@ export default function HomePage({ onGo, onToast }) {
               </button>
             </div>
 
-            <hr className="mt-5"/>
+            <hr className="mt-5" />
 
-          
+
           </div>
 
 
@@ -720,61 +728,61 @@ export default function HomePage({ onGo, onToast }) {
               </button>
             </div>
 
-<hr className="mt-5"/>
+            <hr className="mt-5" />
 
-      
+
           </div>
         </div>
-<div className="g2">
-      <div className="card">
-              <div className="ch">
-                <div className="ct">
-                  <i className="ti ti-history" style={{ marginRight: 6, color: "var(--bl)" }} />
-                  Recent Transactions
-                </div>
-                <span className="cl" onClick={() => onGo("transactions")}>View All ›</span>
+        <div className="g2">
+          <div className="card">
+            <div className="ch">
+              <div className="ct">
+                <i className="ti ti-history" style={{ marginRight: 6, color: "var(--bl)" }} />
+                Recent Transactions
               </div>
-              <div style={{ overflowX: "auto" }}>
-                <table className="tbl">
-                  <thead>
-                    <tr>
-                      <th style={{ width: 70 }}>Date</th>
-                      <th style={{ width: 160 }}>Type</th>
-                      <th style={{ width: 100 }}>Amount</th>
-                      <th style={{ width: 65 }}>Currency</th>
-                      <th>Status</th>
-                      <th style={{ width: 85 }}>Txn ID</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {[
-                      { date: "Apr 28", icon: "ti-arrows-right-left", color: "var(--gr)", type: "VELT → USDT", amount: "1,000 VELT", cur: "USDT", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-8842A" },
-                      { date: "Apr 27", icon: "ti-gift", color: "var(--pu)", type: "Reward Redeem", amount: "500 pts", cur: "POINTS", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-7731B" },
-                      { date: "Apr 26", icon: "ti-download", color: "var(--am)", type: "USDT Withdraw", amount: "$49.00", cur: "USDT", status: "pill pw", sicon: "ti-clock", slabel: "Pending", id: "VLT-6620C" },
-                      { date: "Apr 25", icon: "ti-shopping-cart", color: "var(--bl)", type: "VELT Purchase", amount: "10,000 VELT", cur: "VELT", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-5512D" },
-                      { date: "Apr 24", icon: "ti-lock", color: "var(--glt)", type: "VELT Staking", amount: "5,000 VELT", cur: "VELT", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-4403E" },
-                      { date: "Apr 23", icon: "ti-credit-card", color: "var(--rd)", type: "VISA Card Charge", amount: "$5.00", cur: "USD", status: "pill pf", sicon: "ti-x", slabel: "Failed", id: "VLT-3312F" },
-                    ].map((row) => (
-                      <tr key={row.id}>
-                        <td>{row.date}</td>
-                        <td>
-                          <span className="td-dot" style={{ background: row.color }} />
-                          <i className={`ti ${row.icon}`} style={{ fontSize: 10, marginRight: 4, color: row.color }} />
-                          {row.type}
-                        </td>
-                        <td className="bo2">{row.amount}</td>
-                        <td>{row.cur}</td>
-                        <td><span className={row.status}><i className={`ti ${row.sicon}`} /> {row.slabel}</span></td>
-                        <td style={{ fontFamily: "monospace", fontSize: 10, color: "var(--tx3)" }}>{row.id}</td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <span className="cl" onClick={() => onGo("transactions")}>View All ›</span>
             </div>
- 
-        {/* ── Recent Transactions ── */}
-</div>
+            <div style={{ overflowX: "auto" }}>
+              <table className="tbl">
+                <thead>
+                  <tr>
+                    <th style={{ width: 70 }}>Date</th>
+                    <th style={{ width: 160 }}>Type</th>
+                    <th style={{ width: 100 }}>Amount</th>
+                    <th style={{ width: 65 }}>Currency</th>
+                    <th>Status</th>
+                    <th style={{ width: 85 }}>Txn ID</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { date: "Apr 28", icon: "ti-arrows-right-left", color: "var(--gr)", type: "VELT → USDT", amount: "1,000 VELT", cur: "USDT", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-8842A" },
+                    { date: "Apr 27", icon: "ti-gift", color: "var(--pu)", type: "Reward Redeem", amount: "500 pts", cur: "POINTS", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-7731B" },
+                    { date: "Apr 26", icon: "ti-download", color: "var(--am)", type: "USDT Withdraw", amount: "$49.00", cur: "USDT", status: "pill pw", sicon: "ti-clock", slabel: "Pending", id: "VLT-6620C" },
+                    { date: "Apr 25", icon: "ti-shopping-cart", color: "var(--bl)", type: "VELT Purchase", amount: "10,000 VELT", cur: "VELT", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-5512D" },
+                    { date: "Apr 24", icon: "ti-lock", color: "var(--glt)", type: "VELT Staking", amount: "5,000 VELT", cur: "VELT", status: "pill pd", sicon: "ti-check", slabel: "Success", id: "VLT-4403E" },
+                    { date: "Apr 23", icon: "ti-credit-card", color: "var(--rd)", type: "VISA Card Charge", amount: "$5.00", cur: "USD", status: "pill pf", sicon: "ti-x", slabel: "Failed", id: "VLT-3312F" },
+                  ].map((row) => (
+                    <tr key={row.id}>
+                      <td>{row.date}</td>
+                      <td>
+                        <span className="td-dot" style={{ background: row.color }} />
+                        <i className={`ti ${row.icon}`} style={{ fontSize: 10, marginRight: 4, color: row.color }} />
+                        {row.type}
+                      </td>
+                      <td className="bo2">{row.amount}</td>
+                      <td>{row.cur}</td>
+                      <td><span className={row.status}><i className={`ti ${row.sicon}`} /> {row.slabel}</span></td>
+                      <td style={{ fontFamily: "monospace", fontSize: 10, color: "var(--tx3)" }}>{row.id}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* ── Recent Transactions ── */}
+        </div>
 
 
       </div>
