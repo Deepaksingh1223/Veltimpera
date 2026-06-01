@@ -9,7 +9,7 @@ export default function LinkedInTask() {
   
   // Tasks data with progress
   const [tasks, setTasks] = useState({
-    li1: { title: "Follow Mudra Financial on LinkedIn", description: "Follow our LinkedIn company page", points: 10, progress: 100, status: "done", type: "follow", stepsDone: 1, totalSteps: 1 },
+    li1: { title: "Follow Veltimpera Financial on LinkedIn", description: "Follow our LinkedIn company page", points: 10, progress: 100, status: "done", type: "follow", stepsDone: 1, totalSteps: 1 },
     li2: { title: "Like: Company Milestone Post", description: "Like our 10,000 users milestone post", points: 5, progress: 0, status: "new", type: "like", stepsDone: 0, totalSteps: 1 },
     li3: { title: "Share: FinTech Insight Article", description: "Share our Web3 payments article", points: 15, progress: 0, status: "new", type: "share", stepsDone: 0, totalSteps: 2 },
     li4: { title: "Comment: Industry Discussion", description: "Comment on our Future of Finance post", points: 8, progress: 0, status: "new", type: "comment", stepsDone: 0, totalSteps: 2 }
@@ -150,7 +150,7 @@ export default function LinkedInTask() {
                   fontWeight: selectedTask.stepsDone === 0 ? "600" : "normal",
                   color: selectedTask.stepsDone > 0 ? "var(--tx2)" : "var(--tx)"
                 }}>
-                  {selectedTask.type === "follow" && "Search and follow Mudra Financial on LinkedIn"}
+                  {selectedTask.type === "follow" && "Search and follow Veltimpera Financial on LinkedIn"}
                   {selectedTask.type === "like" && "Find the milestone post and click Like button"}
                   {selectedTask.type === "share" && "Open the FinTech Insight article"}
                   {selectedTask.type === "comment" && "Open the Future of Finance post"}
@@ -347,14 +347,13 @@ export default function LinkedInTask() {
           <div className="bf" style={{width:`${completedPercentage}%`, background:"#0077B5"}}></div>
         </div>
         
-        <div id="li-list" style={{display:"flex", flexDirection:"column", gap:"8px"}}>
-          {/* Task 1 - Follow Mudra Financial (Done) */}
+        <div id="li-list" style={{display:"flex", flexDirection:"column", gap:"8px"}}> 
           <div className={`tr ${tasks.li1.status === "done" ? "dn2" : ""}`} id="srli1">
             <div className="tico" style={{background:"#0077B5"}}>
               <i className="ti ti-user-plus" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Follow Mudra Financial on LinkedIn</div>
+              <div className="tt">Follow Veltimpera Financial on LinkedIn</div>
               <div className="td">Follow our LinkedIn company page</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>

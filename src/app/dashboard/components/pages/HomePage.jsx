@@ -720,12 +720,12 @@ export default function HomePage({ onGo, onToast }) {
               ))}
             </div>
             <div style={{ display: "flex", gap: 6 }}>
-              <button className="D-btn bg" style={{ flex: 1 }} onClick={() => onGo("velt")}>
+              <Link className="D-btn bg"  href="https://pancakeswap.finance/swap?outputCurrency=0xb26dF3cadeF9F4b771D98D20A7F05e055173f90A" target="_blank" style={{ flex: 1 }} onClick={() => onGo("velt")}>
                 <i className="ti ti-shopping-cart" /> Buy VELT
-              </button>
-              <button className="btn bn" style={{ flex: 1 }} onClick={() => onGo("stake")}>
+              </Link>
+              <Link className="btn bn" href="https://stake.veltimpera.com/registration" target="_blank" style={{ flex: 1 }} onClick={() => onGo("stake")}>
                 <i className="ti ti-lock" /> Stake VELT
-              </button>
+              </Link>
             </div>
 
             <hr className="mt-5" />

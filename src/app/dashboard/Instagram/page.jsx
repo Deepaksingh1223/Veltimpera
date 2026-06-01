@@ -9,7 +9,7 @@ export default function InstagramTask() {
   
   // Tasks data with progress
   const [tasks, setTasks] = useState({
-    ig1: { title: "Follow @MudraFinance", description: "Follow the official Mudra Instagram", points: 10, progress: 100, status: "done", type: "follow", stepsDone: 1, totalSteps: 1 },
+    ig1: { title: "Follow @VeltimperaFinance", description: "Follow the official Veltimpera Instagram", points: 10, progress: 100, status: "done", type: "follow", stepsDone: 1, totalSteps: 1 },
     ig2: { title: "Like: Platform Launch Reel", description: "Like our launch reel", points: 5, progress: 100, status: "done", type: "like", stepsDone: 1, totalSteps: 1 },
     ig3: { title: "Like: Velt Impera Infographic", description: "Like our Velt Impera explainer post", points: 5, progress: 0, status: "new", type: "like", stepsDone: 0, totalSteps: 1 },
     ig4: { title: "Share Story: Referral Code", description: "Share our referral template to your story", points: 12, progress: 50, status: "progress", type: "story", stepsDone: 1, totalSteps: 2 },
@@ -149,7 +149,7 @@ export default function InstagramTask() {
                   fontWeight: selectedTask.stepsDone === 0 ? "600" : "normal",
                   color: selectedTask.stepsDone > 0 ? "var(--tx2)" : "var(--tx)"
                 }}>
-                  {selectedTask.type === "follow" && "Search and follow @MudraFinance on Instagram"}
+                  {selectedTask.type === "follow" && "Search and follow @VeltimperaFinance on Instagram"}
                   {selectedTask.type === "like" && "Find the post and double-tap to like"}
                   {selectedTask.type === "story" && "Open the story template from our highlights"}
                 </div>
@@ -350,15 +350,14 @@ export default function InstagramTask() {
           <div className="bf" style={{width:`${completedPercentage}%`, background:"linear-gradient(90deg, #f58529, #dd2a7b)"}}></div>
         </div>
         
-        <div id="ig-list" style={{display:"flex", flexDirection:"column", gap:"8px"}}>
-          {/* Task 1 - Follow @MudraFinance (Done) */}
+        <div id="ig-list" style={{display:"flex", flexDirection:"column", gap:"8px"}}> 
           <div className={`tr ${tasks.ig1.status === "done" ? "dn2" : ""}`} id="srig1">
             <div className="tico" style={{background:"#dd2a7b"}}>
               <i className="ti ti-user-plus" style={{fontSize:"15px", color:"#fff"}} aria-hidden="true"></i>
             </div>
             <div className="tb">
-              <div className="tt">Follow @MudraFinance</div>
-              <div className="td">Follow the official Mudra Instagram</div>
+              <div className="tt">Follow @VeltimperaFinance</div>
+              <div className="td">Follow the official Veltimpera Instagram</div>
               <div className="tpg">
                 <div className="bar" style={{flex:1}}>
                   <div className="bf" id="sbig1" style={{width:`${tasks.ig1.progress}%`}}></div>

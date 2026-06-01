@@ -48,7 +48,7 @@ export default function Topbar({ onToggleDark, onGo, points, dark }) {
 
         <div className="tb-bal">
           <FiUser size={12} />
-          User ID : 0001
+        veltimpera@gmail.com
         </div> 
            <button 
           className="tbi" 
