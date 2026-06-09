@@ -1,7 +1,5 @@
 "use client";
-
-import Header2 from "../Header2";
-import Footer from "../Footer";
+ 
 import { 
   RiShieldCheckLine, 
   RiWalletLine, 
