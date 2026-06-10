@@ -2,23 +2,23 @@
 
 export default function Flywheel() {
   return (
-    <section style={{ background: "var(--bk)", textAlign: "center" }} className="bg-[#050a06] text-center py-[100px] px-4 sm:px-6 lg:px-10 relative max-sm:py-[60px]" id="flywheel">
+    <section className="bg-[#050a06] text-center py-[100px] px-4 sm:px-6 lg:px-10 relative max-sm:py-[60px]" id="flywheel">
       <div className="container max-w-[1100px] mx-auto">
         
         <div className="eyebrow text-[11px] font-bold tracking-[0.15em] uppercase text-[#22c97a] mb-3.5 flex items-center gap-2.5 before:content-[''] before:block before:w-[22px] before:h-px before:bg-[#22c97a] justify-center">
           Momentum Flywheel
         </div>
         
-        <h2 className="sec-title font-['Space_Grotesk',sans-serif] text-[clamp(30px,4vw,50px)] font-bold leading-[1.1] tracking-[-0.02em] mx-auto mb-3.5 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ textAlign: "center", margin: "0 auto 14px" }}>
+        <h2 className="sec-title font-['Space_Grotesk',sans-serif] text-[clamp(30px,4vw,50px)] font-bold leading-[1.1] tracking-[-0.02em] mx-auto mb-3.5 transition-all duration-700 ease-out text-center max-w-[600px]">
           A Self-Reinforcing Growth Cycle
         </h2>
         
-        <p className="sec-sub text-base text-[#b8c4bc] max-w-[560px] leading-[1.75] mx-auto mb-14 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ margin: "0 auto 56px" }}>
+        <p className="sec-sub text-base text-[#b8c4bc] max-w-[560px] leading-[1.75] mx-auto mb-14 transition-all duration-700 ease-out text-center">
           As the community grows, the digital value of the entire ecosystem compounds automatically — a perpetual motion machine of organic growth.
         </p>
 
         {/* Flywheel SVG */}
-        <div className="max-w-[600px] mx-auto reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
+        <div className="max-w-[600px] mx-auto relative">
           <svg viewBox="0 0 600 480" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
             <defs>
               <linearGradient id="fw1" x1="0" y1="0" x2="1" y2="1">
@@ -49,9 +49,15 @@ export default function Flywheel() {
             <circle cx="300" cy="240" r="76" fill="rgba(13,107,63,0.22)" stroke="rgba(34,201,122,0.32)" strokeWidth="1.5"/>
             <circle cx="300" cy="240" r="46" fill="rgba(13,107,63,0.42)" stroke="rgba(34,201,122,0.28)" strokeWidth="1"/>
             
-            {/* Center text */}
-            <text x="300" y="234" fill="#22c97a" fontSize="11" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">VELT</text>
-            <text x="300" y="250" fill="#22c97a" fontSize="11" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">IMPERA</text>
+            {/* Center Image */}
+            <image 
+              href="/fav.png" 
+              x="265" 
+              y="205" 
+              width="70" 
+              height="70"
+              className="animate-pulse"
+            />
             
             {/* Label cards - Top */}
             <rect x="228" y="38" width="144" height="40" rx="8" fill="rgba(15,26,18,0.95)" stroke="rgba(34,201,122,0.22)" strokeWidth="1"/>
@@ -84,8 +90,29 @@ export default function Flywheel() {
               A self-reinforcing cycle — the network effect compounds as the ecosystem grows
             </text>
           </svg>
+
+          {/* Optional: Add a pulsing ring effect behind the image using Tailwind */}
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[90px] h-[90px] rounded-full bg-[#22c97a]/10 animate-ping pointer-events-none">
+          </div>
         </div>
       </div>
+
+      <style jsx>{`
+        @keyframes pulse {
+          0%, 100% {
+            opacity: 0.8;
+            transform: scale(1);
+          }
+          50% {
+            opacity: 1;
+            transform: scale(1.05);
+          }
+        }
+        .animate-pulse {
+          animation: pulse 2s ease-in-out infinite;
+          transform-origin: center;
+        }
+      `}</style>
     </section>
   );
 }

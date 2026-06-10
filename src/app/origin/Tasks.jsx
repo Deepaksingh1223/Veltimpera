@@ -96,7 +96,7 @@ export default function Tasks() {
         {/* Task Cards Grid */}
         <div className="task-grid grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-3.5 mt-11">
           
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
             <div className="tc-ico text-[22px] mb-2">▶️</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">YouTube</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -107,7 +107,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.05s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.05s" }}>
             <div className="tc-ico text-[22px] mb-2">📘</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">Facebook</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -118,7 +118,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.1s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.1s" }}>
             <div className="tc-ico text-[22px] mb-2">📸</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">Instagram</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -129,7 +129,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.15s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.15s" }}>
             <div className="tc-ico text-[22px] mb-2">💼</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">LinkedIn</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -140,7 +140,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.2s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.2s" }}>
             <div className="tc-ico text-[22px] mb-2">🌐</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">Website</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -151,7 +151,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.25s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.25s" }}>
             <div className="tc-ico text-[22px] mb-2">✍️</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">Content Tasks</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -162,7 +162,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.3s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.3s" }}>
             <div className="tc-ico text-[22px] mb-2">🤖</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">AI Visibility</div>
             <ul className="tc-list list-none flex flex-col gap-1">
@@ -173,7 +173,7 @@ export default function Tasks() {
             </ul>
           </div>
 
-          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.35s" }}>
+          <div className="task-card p-5 bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-2xl backdrop-blur-[12px] transition-all duration-200 hover:-translate-y-1 hover:border-[rgba(34,201,122,0.3)] hover:shadow-[0_16px_40px_rgba(13,107,63,0.15)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.35s" }}>
             <div className="tc-ico text-[22px] mb-2">📱</div>
             <div className="tc-name text-xs font-bold text-[#22c97a] mb-2">App Ecosystem</div>
             <ul className="tc-list list-none flex flex-col gap-1">
