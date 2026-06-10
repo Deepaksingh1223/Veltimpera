@@ -14,6 +14,9 @@ import {
   RiGlobalLine
 } from "react-icons/ri";
 
+import Header from "../Header";
+import Footer from "../Footer";
+
 export default function PrivacyPolicy() {
   const sections = [
     {
@@ -96,7 +99,7 @@ export default function PrivacyPolicy() {
 
   return (
     <>
-      <Header2 />
+      <Header />
       <main className="min-h-screen bg-gray-50">
         <section className="relative py-20 md:py-28 px-4 md:px-6">
           {/* subtle gradient background */}
