@@ -73,20 +73,20 @@ export default function Solution() {
         {/* Solution Cards */}
         <div className="sol-cards grid grid-cols-1 md:grid-cols-3 gap-[22px] mt-[52px]">
           
-          <div className="sol-card p-[30px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-3xl backdrop-blur-[20px] transition-all duration-300 hover:border-[rgba(34,201,122,0.35)] hover:-translate-y-1.5 hover:shadow-[0_24px_60px_rgba(13,107,63,0.2)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
-            <div className="sc-ico w-[52px] h-[52px] rounded-xl bg-gradient-to-br from-[rgba(13,107,63,0.4)] to-[rgba(34,201,122,0.15)] border border-[rgba(34,201,122,0.2)] flex items-center justify-center text-2xl mb-4">🎯</div>
+          <div className="sol-card p-[30px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-3xl backdrop-blur-[20px] transition-all duration-300 hover:border-[rgba(34,201,122,0.35)] hover:-translate-y-1.5 hover:shadow-[0_24px_60px_rgba(13,107,63,0.2)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
+            <div className="sc-ico w-[52px] h-[52px] rounded-xl bg-gradient-to-br from-[rgba(13,107,63,0.4)] to-[rgba(34,201,122,0.15)] border-[rgba(34,201,122,0.2)] flex items-center justify-center text-2xl mb-4">🎯</div>
             <h3 className="font-['Space_Grotesk',sans-serif] text-[17px] font-semibold mb-2 tracking-[-0.01em]">Businesses Create Campaigns</h3>
             <p className="text-[13px] text-[#b8c4bc] leading-[1.65]">Launch targeted campaigns across any platform. Define tasks, set goals, and distribute to thousands of verified community members instantly.</p>
           </div>
 
-          <div className="sol-card p-[30px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-3xl backdrop-blur-[20px] transition-all duration-300 hover:border-[rgba(34,201,122,0.35)] hover:-translate-y-1.5 hover:shadow-[0_24px_60px_rgba(13,107,63,0.2)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.1s" }}>
-            <div className="sc-ico w-[52px] h-[52px] rounded-xl bg-gradient-to-br from-[rgba(13,107,63,0.4)] to-[rgba(34,201,122,0.15)] border border-[rgba(34,201,122,0.2)] flex items-center justify-center text-2xl mb-4">⚡</div>
+          <div className="sol-card p-[30px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-3xl backdrop-blur-[20px] transition-all duration-300 hover:border-[rgba(34,201,122,0.35)] hover:-translate-y-1.5 hover:shadow-[0_24px_60px_rgba(13,107,63,0.2)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.1s" }}>
+            <div className="sc-ico w-[52px] h-[52px] rounded-xl bg-gradient-to-br from-[rgba(13,107,63,0.4)] to-[rgba(34,201,122,0.15)] border-[rgba(34,201,122,0.2)] flex items-center justify-center text-2xl mb-4">⚡</div>
             <h3 className="font-['Space_Grotesk',sans-serif] text-[17px] font-semibold mb-2 tracking-[-0.01em]">Community Completes Tasks</h3>
             <p className="text-[13px] text-[#b8c4bc] leading-[1.65]">Verified real humans perform genuine engagement activities — watching, liking, reviewing, sharing. Every interaction is authentic and platform-compliant.</p>
           </div>
 
-          <div className="sol-card p-[30px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-3xl backdrop-blur-[20px] transition-all duration-300 hover:border-[rgba(34,201,122,0.35)] hover:-translate-y-1.5 hover:shadow-[0_24px_60px_rgba(13,107,63,0.2)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.2s" }}>
-            <div className="sc-ico w-[52px] h-[52px] rounded-xl bg-gradient-to-br from-[rgba(13,107,63,0.4)] to-[rgba(34,201,122,0.15)] border border-[rgba(34,201,122,0.2)] flex items-center justify-center text-2xl mb-4">🏆</div>
+          <div className="sol-card p-[30px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-3xl backdrop-blur-[20px] transition-all duration-300 hover:border-[rgba(34,201,122,0.35)] hover:-translate-y-1.5 hover:shadow-[0_24px_60px_rgba(13,107,63,0.2)] reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.2s" }}>
+            <div className="sc-ico w-[52px] h-[52px] rounded-xl bg-gradient-to-br from-[rgba(13,107,63,0.4)] to-[rgba(34,201,122,0.15)] border-[rgba(34,201,122,0.2)] flex items-center justify-center text-2xl mb-4">🏆</div>
             <h3 className="font-['Space_Grotesk',sans-serif] text-[17px] font-semibold mb-2 tracking-[-0.01em]">Everyone Gets Rewarded</h3>
             <p className="text-[13px] text-[#b8c4bc] leading-[1.65]">Community members earn VELT points for participation. Businesses gain real visibility and social proof. The ecosystem grows stronger every cycle.</p>
           </div>
@@ -94,7 +94,7 @@ export default function Solution() {
 
         {/* COMPARISON TABLE */}
         <div className="reveal opacity-1 translate-y-7 transition-all duration-700 ease-out mt-[52px]">
-          <div className="compare-table w-full rounded-xl overflow-hidden border border-[rgba(34,201,122,0.12)]">
+          <div className="compare-table w-full rounded-xl overflow-hidden border-[rgba(34,201,122,0.12)]">
             
             <div className="cth grid grid-cols-[2fr_1fr_1fr] bg-[rgba(15,26,18,0.9)] py-[13px] px-5 text-[11px] font-bold tracking-[0.06em] uppercase text-[#6b7d72] border-b border-[rgba(34,201,122,0.1)]">
               <span>Dimension</span>

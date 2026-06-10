@@ -24,37 +24,37 @@ export default function Businesses() {
             {/* Business Features Grid */}
             <div className="biz-feats grid grid-cols-1 sm:grid-cols-2 gap-3.5 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
               
-              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
+              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
                 <div className="ico text-[19px] mb-1.5">🌱</div>
                 <h4 className="text-xs font-bold mb-0.5">Organic Brand Growth</h4>
                 <p className="text-[11px] text-[#6b7d72] leading-5">Real signals that algorithms reward naturally</p>
               </div>
               
-              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
+              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
                 <div className="ico text-[19px] mb-1.5">👥</div>
                 <h4 className="text-xs font-bold mb-0.5">Real Human Engagement</h4>
                 <p className="text-[11px] text-[#6b7d72] leading-5">Zero bots — verified community members only</p>
               </div>
               
-              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
+              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
                 <div className="ico text-[19px] mb-1.5">💰</div>
                 <h4 className="text-xs font-bold mb-0.5">Cost Effective</h4>
                 <p className="text-[11px] text-[#6b7d72] leading-5">Sustainable alternative to spiking PPC costs</p>
               </div>
               
-              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
+              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
                 <div className="ico text-[19px] mb-1.5">📡</div>
                 <h4 className="text-xs font-bold mb-0.5">Scalable Distribution</h4>
                 <p className="text-[11px] text-[#6b7d72] leading-5">Campaigns distributed to thousands instantly</p>
               </div>
               
-              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
+              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
                 <div className="ico text-[19px] mb-1.5">🛡️</div>
                 <h4 className="text-xs font-bold mb-0.5">Trust &amp; Credibility</h4>
                 <p className="text-[11px] text-[#6b7d72] leading-5">Peer-to-peer social proof you can't buy</p>
               </div>
               
-              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
+              <div className="biz-f p-[17px] bg-[rgba(15,26,18,0.85)] border-[rgba(34,201,122,0.15)] rounded-xl transition-all duration-200 hover:border-[rgba(34,201,122,0.3)] hover:-translate-y-0.5">
                 <div className="ico text-[19px] mb-1.5">♾️</div>
                 <h4 className="text-xs font-bold mb-0.5">Long-Term Presence</h4>
                 <p className="text-[11px] text-[#6b7d72] leading-5">Growth persists beyond your campaign budget</p>

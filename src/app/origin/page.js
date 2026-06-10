@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Footer from "./Footer";
 import Header from "./Header";
 import Hero from "./Hero";
@@ -54,7 +55,7 @@ export default function Origin() {
       document.head.appendChild(preconnectGstatic);
     }
 
-    // 5 second loading timer
+    // Loading timer
     const timer = setTimeout(() => {
       setIsLoading(false);
     }, 1000);
@@ -62,7 +63,6 @@ export default function Origin() {
     return () => clearTimeout(timer);
   }, []);
 
-  // Intersection Observer for animations (only when loading is complete)
   useEffect(() => {
     if (isLoading) return;
 
@@ -82,17 +82,18 @@ export default function Origin() {
     return () => observer.disconnect();
   }, [isLoading]);
 
-  // Simple Loading Screen - Perfectly Centered
+  // Modern Loader with Image + Animation
   if (isLoading) {
     return (
-      <div className="fixed inset-0 bg-[#050a06] flex items-center justify-center z-[9999]">
+      <div className="fixed inset-0 bg-gradient-to-br from-[#050a06] via-[#0a1210] to-[#050a06] flex items-center justify-center z-[9999]">
         <div className="text-center">
-          <h1 className="text-xl sm:text-2xl font-bold font-['Space_Grotesk',sans-serif] text-white mb-3">
-            VELT <span className="text-[#22c97a]">IMPERA</span>
-          </h1>
-          <p className="text-[#22c97a] text-[11px] sm:text-xs tracking-wider animate-pulse">
-            LOADING ECOSYSTEM...
-          </p>
+          <Image
+            src="/fav.png"
+            alt="Loading"
+            width={50}
+            height={50}
+            style={{ objectFit: 'contain', width:"50px" , hieght:"50px", margin:"20% auto"}}
+          />
         </div>
       </div>
     );

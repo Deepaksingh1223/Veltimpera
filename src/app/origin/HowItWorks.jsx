@@ -18,7 +18,7 @@ export default function HowItWorks() {
           
           <div className="step-item flex flex-col items-center text-center gap-3 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out">
             <div className="step-num w-[70px] h-[70px] sm:w-[74px] sm:h-[74px] rounded-full bg-[#162019] border-2 border-[rgba(34,201,122,0.25)] flex items-center justify-center text-2xl relative transition-all duration-300 hover:border-[#22c97a] hover:shadow-[0_0_20px_rgba(34,201,122,0.2)] hover:scale-105">
-              <div className="absolute -top-[7px] -right-[7px] w-[19px] h-[19px] bg-[#16a05e] rounded-full text-[9px] font-extrabold text-[#050a06] flex items-center justify-center font-['Space_Grotesk',sans-serif]" data-n="1">1</div>
+            
               🏢
             </div>
             <div className="step-lbl text-[11px] font-semibold text-[#b8c4bc] leading-[1.4]">Business Creates Campaign</div>
@@ -26,7 +26,7 @@ export default function HowItWorks() {
 
           <div className="step-item flex flex-col items-center text-center gap-3 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.07s" }}>
             <div className="step-num w-[70px] h-[70px] sm:w-[74px] sm:h-[74px] rounded-full bg-[#162019] border-2 border-[rgba(34,201,122,0.25)] flex items-center justify-center text-2xl relative transition-all duration-300 hover:border-[#22c97a] hover:shadow-[0_0_20px_rgba(34,201,122,0.2)] hover:scale-105">
-              <div className="absolute -top-[7px] -right-[7px] w-[19px] h-[19px] bg-[#16a05e] rounded-full text-[9px] font-extrabold text-[#050a06] flex items-center justify-center font-['Space_Grotesk',sans-serif]" data-n="2">2</div>
+           
               📡
             </div>
             <div className="step-lbl text-[11px] font-semibold text-[#b8c4bc] leading-[1.4]">Tasks Are Distributed</div>
@@ -34,7 +34,7 @@ export default function HowItWorks() {
 
           <div className="step-item flex flex-col items-center text-center gap-3 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.14s" }}>
             <div className="step-num w-[70px] h-[70px] sm:w-[74px] sm:h-[74px] rounded-full bg-[#162019] border-2 border-[rgba(34,201,122,0.25)] flex items-center justify-center text-2xl relative transition-all duration-300 hover:border-[#22c97a] hover:shadow-[0_0_20px_rgba(34,201,122,0.2)] hover:scale-105">
-              <div className="absolute -top-[7px] -right-[7px] w-[19px] h-[19px] bg-[#16a05e] rounded-full text-[9px] font-extrabold text-[#050a06] flex items-center justify-center font-['Space_Grotesk',sans-serif]" data-n="3">3</div>
+              
               👥
             </div>
             <div className="step-lbl text-[11px] font-semibold text-[#b8c4bc] leading-[1.4]">Community Performs Tasks</div>
@@ -42,7 +42,7 @@ export default function HowItWorks() {
 
           <div className="step-item flex flex-col items-center text-center gap-3 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.21s" }}>
             <div className="step-num w-[70px] h-[70px] sm:w-[74px] sm:h-[74px] rounded-full bg-[#162019] border-2 border-[rgba(34,201,122,0.25)] flex items-center justify-center text-2xl relative transition-all duration-300 hover:border-[#22c97a] hover:shadow-[0_0_20px_rgba(34,201,122,0.2)] hover:scale-105">
-              <div className="absolute -top-[7px] -right-[7px] w-[19px] h-[19px] bg-[#16a05e] rounded-full text-[9px] font-extrabold text-[#050a06] flex items-center justify-center font-['Space_Grotesk',sans-serif]" data-n="4">4</div>
+             
               🎁
             </div>
             <div className="step-lbl text-[11px] font-semibold text-[#b8c4bc] leading-[1.4]">Points Are Rewarded</div>
@@ -50,7 +50,7 @@ export default function HowItWorks() {
 
           <div className="step-item flex flex-col items-center text-center gap-3 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.28s" }}>
             <div className="step-num w-[70px] h-[70px] sm:w-[74px] sm:h-[74px] rounded-full bg-[#162019] border-2 border-[rgba(34,201,122,0.25)] flex items-center justify-center text-2xl relative transition-all duration-300 hover:border-[#22c97a] hover:shadow-[0_0_20px_rgba(34,201,122,0.2)] hover:scale-105">
-              <div className="absolute -top-[7px] -right-[7px] w-[19px] h-[19px] bg-[#16a05e] rounded-full text-[9px] font-extrabold text-[#050a06] flex items-center justify-center font-['Space_Grotesk',sans-serif]" data-n="5">5</div>
+           
               📈
             </div>
             <div className="step-lbl text-[11px] font-semibold text-[#b8c4bc] leading-[1.4]">Brand Gains Visibility</div>
@@ -58,7 +58,7 @@ export default function HowItWorks() {
 
           <div className="step-item flex flex-col items-center text-center gap-3 reveal opacity-1 translate-y-7 transition-all duration-700 ease-out" style={{ transitionDelay: "0.35s" }}>
             <div className="step-num w-[70px] h-[70px] sm:w-[74px] sm:h-[74px] rounded-full bg-[#162019] border-2 border-[rgba(34,201,122,0.25)] flex items-center justify-center text-2xl relative transition-all duration-300 hover:border-[#22c97a] hover:shadow-[0_0_20px_rgba(34,201,122,0.2)] hover:scale-105">
-              <div className="absolute -top-[7px] -right-[7px] w-[19px] h-[19px] bg-[#16a05e] rounded-full text-[9px] font-extrabold text-[#050a06] flex items-center justify-center font-['Space_Grotesk',sans-serif]" data-n="6">6</div>
+            
               🌱
             </div>
             <div className="step-lbl text-[11px] font-semibold text-[#b8c4bc] leading-[1.4]">Ecosystem Grows</div>
@@ -73,7 +73,7 @@ export default function HowItWorks() {
           <h3 className="font-['Space_Grotesk',sans-serif] text-[24px] sm:text-[28px] font-bold tracking-[-0.02em] mb-11 text-center">
             How Value Is Exchanged
           </h3>
-          <div className="max-w-[680px] mx-auto">
+          <div className="max-w-[680px] mx-auto relative center-icons-img-div">
             <svg viewBox="0 0 680 290" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto" style={{ filter: "drop-shadow(0 0 36px rgba(34,201,122,0.1))" }}>
               <defs>
                 <linearGradient id="il1" x1="0" y1="0" x2="1" y2="0">
@@ -96,26 +96,20 @@ export default function HowItWorks() {
               <ellipse cx="220" cy="145" rx="162" ry="92" stroke="url(#il1)" strokeWidth="28" fill="none" filter="url(#ig)" opacity="0.88"/>
               {/* Right loop */}
               <ellipse cx="460" cy="145" rx="162" ry="92" stroke="url(#il2)" strokeWidth="28" fill="none" filter="url(#ig)" opacity="0.88"/>
-              {/* Mask seam */}
-              <rect x="310" y="60" width="60" height="170" fill="var(--bk2)"/>
-              {/* Center circle */}
-              <circle cx="340" cy="145" r="36" fill="rgba(13,107,63,0.35)" stroke="#22c97a" strokeWidth="1.5"/>
-              <text x="340" y="138" fill="#22c97a" fontSize="10" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">5. GROWTH</text>
-              <text x="340" y="152" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Ecosystem</text>
-              <text x="340" y="164" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">expands</text>
+              
               {/* Labels */}
               <text x="86" y="105" fill="white" fontSize="11" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">1. DEMAND</text>
-              <text x="86" y="120" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Businesses publish</text>
-              <text x="86" y="132" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">campaigns</text>
+              <text x="86" y="120" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Businesses publish</text>
+              <text x="86" y="132" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">campaigns</text>
               <text x="595" y="105" fill="white" fontSize="11" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">2. ACTION</text>
-              <text x="595" y="120" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Community</text>
-              <text x="595" y="132" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">completes tasks</text>
+              <text x="595" y="120" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Community</text>
+              <text x="595" y="132" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">completes tasks</text>
               <text x="86" y="180" fill="white" fontSize="11" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">4. REWARD</text>
-              <text x="86" y="195" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">VELT tokens for</text>
-              <text x="86" y="207" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">engagement</text>
+              <text x="86" y="195" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">VELT tokens for</text>
+              <text x="86" y="207" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">engagement</text>
               <text x="595" y="180" fill="white" fontSize="11" fontFamily="Space Grotesk" fontWeight="700" textAnchor="middle">3. RESULT</text>
-              <text x="595" y="195" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Brands receive</text>
-              <text x="595" y="207" fill="#6b7d72" fontSize="8.5" fontFamily="Inter" textAnchor="middle">organic visibility</text>
+              <text x="595" y="195" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">Brands receive</text>
+              <text x="595" y="207" fill="#fff" fontSize="8.5" fontFamily="Inter" textAnchor="middle">organic visibility</text>
               {/* Animated dots on loops */}
               <circle r="6" fill="#39ff98" opacity="0.9" filter="url(#ig)">
                 <animateMotion dur="4s" repeatCount="indefinite" path="M220 53 A162 92 0 1 1 219.9 53"/>
@@ -127,6 +121,11 @@ export default function HowItWorks() {
                 <animateMotion dur="4s" begin="1s" repeatCount="indefinite" path="M220 53 A162 92 0 1 1 219.9 53"/>
               </circle>
             </svg>
+            
+            {/* Image positioned absolutely over the center circle */}
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 center-icons-img">
+              <img src="/fav.png" alt="Logo" className="w-10 h-10 object-contain" />
+            </div>
           </div>
         </div>
       </div>
